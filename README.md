@@ -41,4 +41,15 @@ end:
 | Voltage range    | Can convert voltage from 5V to 20V                                           |
 | Data transfer rate | Up to 10 Gbps                                                                  |
 
-Note: This code and information is for illustrative purposes only and is not intended to be a fully functional implementation.
+* Note: This code and information is for illustrative purposes only and is not intended to be a fully functional implementation.
+
+## USB Conversion Data Table
+
+| Binary Type | Name |
+|-------------|------|
+| `0000 0001` | 1 bit |
+| `0000 0010` | 1 nibble |
+| `0000 0011` | 1 byte |
+| `0000 0100` | 1 word |
+| `0000 0101` | 1 double word |
+| `0000 0110` | 1 quad word |
